@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/marooo/Downloads/simple_shell",
-      "program": "c:/Users/marooo/Downloads/simple_shell/build/Debug/outDebug",
+      "cwd": "c:/Users/marooo/Downloads/f/simple_shell",
+      "program": "c:/Users/marooo/Downloads/f/simple_shell/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
