@@ -27,6 +27,7 @@ void sinfo(info_t *info, char **av)
 			;
 		info->argc = i;
 
+		r_alias(info);
 		r_var(info);
 	}
 }
