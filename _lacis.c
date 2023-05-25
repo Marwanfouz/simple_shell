@@ -8,8 +8,7 @@
  */
 char *_lacis(char *s, char c)
 {
-	do
-	{
+	do {
 		if (*s == c)
 			return (s);
 	} while (*s++ != '\0');

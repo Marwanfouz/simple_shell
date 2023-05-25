@@ -31,7 +31,8 @@ void fici_path(info_t *info)
 	}
 	else
 	{
-		if ((get_interactive(info) || _get_voev(info, "PATH=") || info->argv[0][0] == '/') && check_f(info, info->argv[0]))
+		if ((get_interactive(info) || _get_voev(info, "PATH=")
+			|| info->argv[0][0] == '/') && check_f(info, info->argv[0]))
 			fanetrcmd(info);
 		else if (*(info->arg) != '\n')
 		{
