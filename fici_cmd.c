@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * fici_path - finds a command in PATH
+ * fi_path - finds a command in PATH
  * @info: the parameter & return info struct
  *
  * Return: void
  */
-void fici_path(info_t *info)
+void fi_path(info_t *info)
 {
 	char *path = NULL;
 	int i, k;
@@ -23,7 +23,7 @@ void fici_path(info_t *info)
 	if (!k)
 		return;
 
-	path = fici_path(info, _get_voev(info, "PATH="), info->argv[0]);
+	path = fi_path(info, _get_voev(info, "PATH="), info->argv[0]);
 	if (path)
 	{
 		info->path = path;

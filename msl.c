@@ -24,7 +24,7 @@ int msl(info_t *info, char **av)
 			sinfo(info, av);
 			builtin_ret = builtin(info);
 			if (builtin_ret == -1)
-				fici_path(info);
+				fi_path(info);
 		}
 		else if (get_interactive(info))
 			_wct_stdout('\n');
