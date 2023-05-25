@@ -6,7 +6,7 @@
  *
  * Return: void
  */
-void fi_path(info_t *info)
+void fi_cmd(info_t *info)
 {
 	char *path = NULL;
 	int i, k;
