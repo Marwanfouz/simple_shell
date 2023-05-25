@@ -102,7 +102,7 @@ typedef struct builtin
 
 int msl(info_t *, char **);
 int builtin(info_t *);
-void fi_cmd(info_t *);
+void fi_path(info_t *);
 void fanetrcmd(info_t *);
 
 int check_f(info_t *, char *);
