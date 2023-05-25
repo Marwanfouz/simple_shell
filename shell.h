@@ -145,7 +145,6 @@ char *_cnts(long int num, int base, int flags);
 
 int ex_shell(info_t *);
 int _chdir(info_t *);
-int _m_alias(info_t *);
 
 ssize_t bufferin(info_t *info, char **buf, size_t *len);
 ssize_t getin(info_t *);
@@ -171,16 +170,10 @@ void freelis(list_t **);
 size_t len_lis(const list_t *);
 char **return_arrs(list_t *);
 size_t print_list(const list_t *);
-ssize_t get_node_index(list_t *, list_t *);
-int delete_node_at_index(list_t **, unsigned int);
-list_t *add_node_end(list_t **, const char *, int);
-list_t *node_swith(list_t *, char *, char);
 char *_fillwc(char *, char, unsigned int);
 
 int test_chain_delim(info_t *, char *, size_t *);
 void ch_next(info_t *, char *, size_t *, size_t, size_t);
-int r_alias(info_t *);
-int pr_alias(list_t *);
 int r_var(info_t *);
 void comment_handle(char *);
 int rstring(char **, char *);
