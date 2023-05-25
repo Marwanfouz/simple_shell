@@ -18,6 +18,7 @@ int builtin(info_t *info)
 		{"setenv", _ianev},
 		{"unsetenv", _raev},
 		{"cd", _chdir},
+		{"alias", _m_alias},
 		{NULL, NULL}};
 
 	for (i = 0; builtintbl[i].type; i++)
