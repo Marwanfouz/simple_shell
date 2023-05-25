@@ -102,12 +102,12 @@ typedef struct builtin
 
 int msl(info_t *, char **);
 int builtin(info_t *);
-void fici_path(info_t *);
+void fi_path(info_t *);
 void fanetrcmd(info_t *);
 
 int check_f(info_t *, char *);
 char *du_chars(char *, int, int);
-char *fici_path(info_t *, char *, char *);
+char *fi_path(info_t *, char *, char *);
 
 int loopmsl(char **);
 
