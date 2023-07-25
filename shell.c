@@ -30,6 +30,7 @@ int main(int argc, char **argv)
 			}
 			return (EXIT_FAILURE);
 		}
+		info->readfd = fp;
 	}
 	env_lilis(info);
 	msl(info, argv);
